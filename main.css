@@ -1,0 +1,101 @@
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  direction: rtl;
+}
+.container::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.main-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.margin-top {
+  margin-top:16px
+}
+
+.main-header {
+  background-color: darkseagreen;
+}
+
+.social {
+  background-color: aqua;
+}
+
+.logo {
+  background-color: blueviolet;
+}
+@media screen and (min-width:600px) {
+  .logo {
+    width: 30%;
+    float: right;
+  }
+}
+.time-search {
+  background-color: chartreuse;
+}
+@media screen and (min-width:600px) {
+  .time-search {
+    width: 70%;
+    float: left;
+  }
+}
+.main-menu {
+  background-color: chocolate;
+}
+
+@media screen and (min-width:800px) {
+  .first-col {
+    width: 70%;
+    float: right;
+    padding-left: 16px;
+  }
+}
+
+.first-col-left {
+  background-color: cyan;
+}
+@media screen and (min-width:600px) {
+  .first-col-left {
+    width: 70%;
+    float: left;
+    padding-right: 16px;
+  }
+}
+
+.first-col-right {
+  background-color: darkgoldenrod;
+}
+
+@media screen and (min-width:600px) {
+  .first-col-right {
+    width: 30%;
+    float: right;
+  }
+}
+
+.second-col {
+  background-color: darkgreen;
+}
+
+@media screen and (min-width:800px) {
+  .second-col {
+    width: 30%;
+    float: right;
+  }
+}
+
+.main-footer {
+  background-color: darkorange;
+}
